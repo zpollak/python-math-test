@@ -23,7 +23,7 @@ def ask_question():
   return response, ans
  
 def mathquiz():
-  print "This is a math quiz to practice arithmetic. Input 'q' at any prompt to exit the 		program. Ready to take the math test? (y/n)\n"
+  print "This is a math quiz to practice arithmetic. Input 'q' at any prompt to exit the program. Ready to take the math test? (y/n)\n"
   x = raw_input()
   while x not in ['y', 'n', 'q']:
     print "Invalid input. Please try again with either y/n/q."
